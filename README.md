@@ -106,8 +106,9 @@ The generated summary is based on the information entered in the patient's case 
 
 ## 8. Steps to Run the Application Locally
 ### Step 1: Clone the repository
-git clone https://github.com/kalyani-pr/patient-management-app.git
-cd patient-management-app
+> git clone https://github.com/kalyani-pr/patient-management-app.git
+
+> cd patient-management-app
 
 ### Step 2: Set up the backend
 > cd backend
