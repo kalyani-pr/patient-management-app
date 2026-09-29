@@ -1,5 +1,12 @@
 # Patient Management Application
 
+## Live demo
+### Frontend:
+https://patient-management-app-1-yozq.onrender.com
+
+### Backend API:
+https://patient-management-app-enco.onrender.com
+
 ## 1. Project Overview
 A full-stack dental patient management web application for managing patient records, maintaining dental case sheets, and generating AI-powered patient summaries. The Patient Management Application provides a simple interface for managing dental patient information.
 
