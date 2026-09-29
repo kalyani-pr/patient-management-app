@@ -1,7 +1,6 @@
 # Patient Management Application
 
 ## 1. Project Overview
-
 A full-stack dental patient management web application for managing patient records, maintaining dental case sheets, and generating AI-powered patient summaries. The Patient Management Application provides a simple interface for managing dental patient information.
 
 ### Main features
@@ -17,7 +16,6 @@ A full-stack dental patient management web application for managing patient reco
 Patient list -> Patient profile -> Case sheet -> Generate AI summary
 
 ## 2. Technologies Used
-
 ### Frontend
 - React.js
 - Vite
@@ -39,37 +37,35 @@ Patient list -> Patient profile -> Case sheet -> Generate AI summary
 ## 3. Frontend Setup
 
 Navigate to the frontend directory:
->> cd frontend
+> cd frontend
 
 Install the required Node.js dependencies:
->> npm install
+> npm install
 
 Start the development server:
->> npm run dev
+> npm run dev
 
 The frontend will normally be available at: http://localhost:5173
 
 ## 4. Backend Setup
-
 Navigate to the backend directory:
->> cd backend
+> cd backend
 
 Create and activate a Python virtual environment:
->> python3 -m venv .venv
->> source .venv/bin/activate
+> python3 -m venv .venv
+> source .venv/bin/activate
 
 Install the required Python packages:
->> pip install -r requirements.txt
+> pip install -r requirements.txt
 
 Start the FastAPI server:
->> uvicorn app.main:app --reload
+> uvicorn app.main:app --reload
 
 The backend will normally be available at: http://127.0.0.1:8000
 
 FastAPI's interactive API documentation is available at: http://127.0.0.1:8000/docs
 
 ## 5. MongoDB Setup
-
 The application uses MongoDB Atlas as the database.
 
 ### Steps
@@ -81,13 +77,11 @@ The application uses MongoDB Atlas as the database.
 6. Add the connection string to the backend environment variables.
 
 The application uses MongoDB to store:
-
 - Patient information
 - Case sheet information
 - Patient ID counters
 
 ## 6. Environment Variables Required
-
 Create a `.env` file inside the `backend` directory.
 
 Example:
@@ -97,11 +91,9 @@ GEMINI_API_KEY=your_gemini_api_key
 Replace the placeholder values with your own credentials.
 
 ## 7. AI API Setup
-
 The application uses Googel's Gemini AI API to generate a concise patient summary from the information entered in the patient's case sheet.
 
 To enable the AI summary features:
-
 1. Create a Gemini API key.
 2. Create a `.env` file inside the `backend` directory.
 3. Add the API key using the `GEMINI_API_KEY` variable.
@@ -112,38 +104,31 @@ To enable the AI summary features:
 The generated summary is based on the information entered in the patient's case sheet.
 
 ## 8. Steps to Run the Application Locally
-
 ### Step 1: Clone the repository
-
 git clone https://github.com/kalyani-pr/patient-management-app.git
 cd patient-management-app
 
 ### Step 2: Set up the backend
-
->> cd backend
->> python3 -m venv .venv
->> source .venv/bin/activate
->> pip install -r requirements.txt
+> cd backend
+> python3 -m venv .venv
+> source .venv/bin/activate
+> pip install -r requirements.txt
 
 Create the `.env` file and configure the required environment variables.
 
 Start the backend:
-
->> uvicorn app.main:app --reload
+> uvicorn app.main:app --reload
 
 ### Step 3: Set up the frontend
 
 Open another terminal and navigate to the project:
-
->> cd patient-management-app/frontend
+> cd patient-management-app/frontend
 
 Install dependencies:
-
->> npm install
+> npm install
 
 Start the frontend:
-
->> npm run dev
+> npm run dev
 
 ### Step 4: Open the application
 
