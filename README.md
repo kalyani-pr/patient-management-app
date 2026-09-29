@@ -53,6 +53,7 @@ Navigate to the backend directory:
 
 Create and activate a Python virtual environment:
 > python3 -m venv .venv
+
 > source .venv/bin/activate
 
 Install the required Python packages:
@@ -110,8 +111,11 @@ cd patient-management-app
 
 ### Step 2: Set up the backend
 > cd backend
+
 > python3 -m venv .venv
+
 > source .venv/bin/activate
+
 > pip install -r requirements.txt
 
 Create the `.env` file and configure the required environment variables.
@@ -120,7 +124,6 @@ Start the backend:
 > uvicorn app.main:app --reload
 
 ### Step 3: Set up the frontend
-
 Open another terminal and navigate to the project:
 > cd patient-management-app/frontend
 
@@ -131,13 +134,10 @@ Start the frontend:
 > npm run dev
 
 ### Step 4: Open the application
-
 Open the frontend URL shown by Vite, normally:
-
 http://localhost:5173
 
 ## 9. Assumptions and Known Limitations
-
 - The application is intended as a demonstration/assessment project.
 - Authentication and role-based access control are not implemented.
 - MongoDB Atlas access must be configured for the machine running the backend.
